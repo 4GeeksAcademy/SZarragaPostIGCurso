@@ -1,0 +1,76 @@
+body {
+  background: black;
+  font-family: Roboto;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  width: 25%;
+}
+
+/*          Header    */
+.postHeader {
+  display: flex;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.profileIcon {
+  display: block;
+  padding: 10px;
+  width: 5%;
+}
+
+.nameText {
+  display: block;
+  width: 90%;
+}
+
+.settingsButton {
+  display: block;
+  padding: 10px;
+  text-align: right;
+  width: 5%;
+}
+
+.postImg {
+  margin: auto;
+  text-align: center;
+}
+
+.postImg img {
+  width: 100%;
+}
+.postIcons {
+  display: flex;
+}
+
+.mainIcons {
+  display: block;
+  padding: 5px;
+  font-size: 30px;
+  width: 80%;
+}
+
+.bookmarkIcon {
+  display: block;
+  padding: 5px;
+  font-size: 30px;
+  width: 20%;
+  text-align: right;
+}
+
+.postEngage {
+  display: block;
+  font-size: 0.7em;
+  padding: 10px;
+}
+
+.postDescription {
+  display: block;
+  padding: 10px;
+  font-size: 0.9em;
+}
